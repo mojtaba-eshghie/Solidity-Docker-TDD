@@ -13,6 +13,9 @@ RUN curl -sL https://deb.nodesource.com/setup_current.x | bash -
 RUN apt-get install -y nodejs
 RUN apt-get install -y build-essential
 RUN npm install --save solc
+RUN npm install --save mocha
+RUN npm install --save web3
+RUN npm install --save ganache-cli
 
 # npm project setup
 RUN npm init -y

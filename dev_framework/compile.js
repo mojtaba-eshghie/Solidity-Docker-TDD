@@ -3,8 +3,9 @@ const fs = require('fs')
 const solc = require('solc')
 
 let arguments = process.argv.slice(2)
+let fileName = arguments[0];
 
-const inboxPath = path.resolve(__dirname, 'contracts', 'Inbox.sol');
+const inboxPath = path.resolve(__dirname, 'contracts', fileName);
 
 
 const source = fs.readFileSync(inboxPath, 'utf8');

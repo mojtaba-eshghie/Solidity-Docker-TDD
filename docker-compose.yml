@@ -9,4 +9,4 @@ services:
         volumes:
             - ./dev_framework:/dev_framework
         command: >
-            sh -c "npm run test"
+            sh -c "node compile.js Inbox.sol; npm run test"
