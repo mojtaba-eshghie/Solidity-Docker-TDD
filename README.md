@@ -4,4 +4,6 @@ Technologies used:
 - Solidity smart contracts
 - Nodejs
 - solc (as solidity compiler)
+- mocha for testing
+- web3.js and ganache-cli to run smart contracts
 
