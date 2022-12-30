@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "ganache-cli": "^6.9.1",
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "solc": "^0.6.12",
     "web3": "^1.2.11"
   }
